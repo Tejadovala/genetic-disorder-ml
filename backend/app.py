@@ -364,10 +364,13 @@ def get_stats():
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+with app.app_context():
+    db.create_all()
+    logger.info('Database tables created.')
+
+logger.info('Starting Flask API server initialization...')
+# initialize_model() will run when gunicorn loads the app module
+initialize_model()
+
 if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
-        logger.info('Database tables created.')
-    logger.info('Starting Flask API server...')
-    initialize_model()
     app.run(debug=True, host='0.0.0.0', port=5000)
