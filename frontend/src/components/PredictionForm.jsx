@@ -34,7 +34,8 @@ export default function PredictionForm({ token, onResult }) {
     try {
       const headers = { 'Content-Type': 'application/json' }
       if (token) headers['Authorization'] = `Bearer ${token}`
-      const res = await fetch('http://localhost:5000/api/predict', {
+      const API = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL + '/api' : 'http://localhost:5000/api'
+      const res = await fetch(`${API}/predict`, {
         method: 'POST', headers,
         body: JSON.stringify({ genetic_markers: markers, patient_info: form })
       })
