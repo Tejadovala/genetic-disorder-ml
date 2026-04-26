@@ -12,7 +12,6 @@ services:
   - type: web
     name: genetic-disorder-frontend
     env: static
-    region: oregon
     buildCommand: "cd frontend && npm install && npm run build"
     staticPublishPath: "./frontend/dist"
     envVars:
