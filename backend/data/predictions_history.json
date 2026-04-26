@@ -1,0 +1,212 @@
+[
+  {
+    "id": "20260304191821146493",
+    "timestamp": "2026-03-04 19:18:21",
+    "patient": {
+      "age": "25",
+      "gender": "M",
+      "ethnicity": "Caucasian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Vision Problems",
+        "Heart Defects"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.958082125886284,
+      "probabilities": {
+        "No Disorder": 0.958082125886284,
+        "Single Gene Disorder": 0.0021624253512562658,
+        "Chromosomal Disorder": 0.0039519324959025335,
+        "Multifactorial Disorder": 0.003411365464551184,
+        "Mitochondrial Disorder": 0.03239215080200593
+      }
+    }
+  },
+  {
+    "id": "20260305131648962080",
+    "timestamp": "2026-03-05 13:16:48",
+    "patient": {
+      "age": "22",
+      "gender": "M",
+      "ethnicity": "Asian",
+      "familyHistory": "No",
+      "symptoms": [
+        "Developmental Delays",
+        "Hearing Loss",
+        "Vision Problems"
+      ]
+    },
+    "result": {
+      "predicted_class": 3,
+      "predicted_disorder": "Multifactorial Disorder",
+      "confidence": 0.3770074486284417,
+      "probabilities": {
+        "No Disorder": 0.10376480958638076,
+        "Single Gene Disorder": 0.09695221573391173,
+        "Chromosomal Disorder": 0.3558812685341055,
+        "Multifactorial Disorder": 0.3770074486284417,
+        "Mitochondrial Disorder": 0.06639425751716023
+      }
+    }
+  },
+  {
+    "id": "20260305140529508249",
+    "timestamp": "2026-03-05 14:05:29",
+    "patient": {
+      "age": "5",
+      "gender": "M",
+      "ethnicity": "Asian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Vision Problems",
+        "Heart Defects"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.8959859993673874,
+      "probabilities": {
+        "No Disorder": 0.8959859993673874,
+        "Single Gene Disorder": 0.07519726947682161,
+        "Chromosomal Disorder": 0.00011943500702705542,
+        "Multifactorial Disorder": 0.028314350609910704,
+        "Mitochondrial Disorder": 0.00038294553885339624
+      }
+    }
+  },
+  {
+    "id": "20260305140701916711",
+    "timestamp": "2026-03-05 14:07:01",
+    "patient": {
+      "age": "5",
+      "gender": "M",
+      "ethnicity": "Asian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Vision Problems",
+        "Heart Defects"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.7683367924485013,
+      "probabilities": {
+        "No Disorder": 0.7683367924485013,
+        "Single Gene Disorder": 0.12435051970658344,
+        "Chromosomal Disorder": 0.004242129889427396,
+        "Multifactorial Disorder": 0.08765153288526842,
+        "Mitochondrial Disorder": 0.015419025070219526
+      }
+    }
+  },
+  {
+    "id": "20260416091910441731",
+    "timestamp": "2026-04-16 09:19:10",
+    "patient": {
+      "age": "18",
+      "gender": "M",
+      "ethnicity": "Caucasian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Hearing Loss"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.9502104112312518,
+      "probabilities": {
+        "No Disorder": 0.9502104112312518,
+        "Single Gene Disorder": 0.004345865599081861,
+        "Chromosomal Disorder": 0.018236120877184653,
+        "Multifactorial Disorder": 0.01799983124548829,
+        "Mitochondrial Disorder": 0.009207771046993524
+      }
+    }
+  },
+  {
+    "id": "20260416101844836068",
+    "timestamp": "2026-04-16 10:18:44",
+    "patient": {
+      "age": "",
+      "gender": "M",
+      "ethnicity": "Caucasian",
+      "familyHistory": "No",
+      "symptoms": []
+    },
+    "result": {
+      "predicted_class": 3,
+      "predicted_disorder": "Multifactorial Disorder",
+      "confidence": 0.855546538609908,
+      "probabilities": {
+        "No Disorder": 0.08418563098368563,
+        "Single Gene Disorder": 0.016080709111922123,
+        "Chromosomal Disorder": 0.02115121276846183,
+        "Multifactorial Disorder": 0.855546538609908,
+        "Mitochondrial Disorder": 0.023035908526022327
+      }
+    }
+  },
+  {
+    "id": "20260416105555831634",
+    "timestamp": "2026-04-16 10:55:55",
+    "patient": {
+      "age": "21",
+      "gender": "M",
+      "ethnicity": "Caucasian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Muscle Weakness",
+        "Learning Difficulties"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.6659590861350215,
+      "probabilities": {
+        "No Disorder": 0.6659590861350215,
+        "Single Gene Disorder": 0.003303225516885748,
+        "Chromosomal Disorder": 0.00014077215099419377,
+        "Multifactorial Disorder": 0.33041686592825875,
+        "Mitochondrial Disorder": 0.00018005026883975426
+      }
+    }
+  },
+  {
+    "id": "20260426180109466068",
+    "timestamp": "2026-04-26 18:01:09",
+    "patient": {
+      "age": "25",
+      "gender": "M",
+      "ethnicity": "Caucasian",
+      "familyHistory": "Yes",
+      "symptoms": [
+        "Developmental Delays",
+        "Vision Problems"
+      ]
+    },
+    "result": {
+      "predicted_class": 0,
+      "predicted_disorder": "No Disorder",
+      "confidence": 0.9904124315645038,
+      "probabilities": {
+        "No Disorder": 0.9904124315645038,
+        "Single Gene Disorder": 0.0009768322470173514,
+        "Chromosomal Disorder": 8.458160066843113e-05,
+        "Multifactorial Disorder": 0.005794538594740928,
+        "Mitochondrial Disorder": 0.0027316159930695105
+      }
+    }
+  }
+]

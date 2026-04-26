@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: genetic-disorder-backend
+    env: python
+    region: oregon
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn app:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+
+  - type: web
+    name: genetic-disorder-frontend
+    env: static
+    region: oregon
+    buildCommand: "cd frontend && npm install && npm run build"
+    staticPublishPath: "./frontend/dist"
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: genetic-disorder-backend
+          envVarKey: RENDER_EXTERNAL_URL
